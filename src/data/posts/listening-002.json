@@ -1,0 +1,78 @@
+{
+  "id": "listening-002",
+  "slug": "nghe-hieu-co-ban-2",
+  "title": "Nghe hiểu cơ bản – Bài 2",
+  "section": "listening",
+  "layout": "listening",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Luyện nghe về gia đình và bạn bè.",
+  "audioUrl": "https://raw.githubusercontent.com/example/audio/main/listening-002.mp3",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning": "nhà, gia đình",
+      "example": "我家有五口人。",
+      "examplePinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+      "exampleMeaning": "Nhà tôi có năm người.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "朋友",
+      "pinyin": "péngyǒu",
+      "meaning": "bạn",
+      "example": "他是我的朋友。",
+      "examplePinyin": "Tā shì wǒ de péngyǒu.",
+      "exampleMeaning": "Anh ấy là bạn của tôi.",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "transcript": "你好！你家有几口人？我家有四口人：爸爸、妈妈、哥哥和我。你有几个朋友？我有很多朋友。",
+  
+  "fillBlank": [
+    {
+      "question": "我家有___口人。",
+      "answer": "四",
+      "acceptableAnswers": ["四"],
+      "explanation": "Trong bài nghe, người nói cho biết nhà có 4 người.",
+      "meaning": "Nhà tôi có bốn người."
+    }
+  ],
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "他家有几口人？",
+      "options": [
+        "三口",
+        "四口",
+        "五口",
+        "六口"
+      ],
+      "answer": 1,
+      "explanation": "Người nói cho biết nhà có 4 người.",
+      "meaning": "Nhà anh ấy có mấy người?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "他家有什么人？",
+      "options": [
+        "爸爸、妈妈、姐姐",
+        "爸爸、妈妈、哥哥",
+        "妈妈、哥哥、妹妹",
+        "爸爸、姐姐、弟弟"
+      ],
+      "answer": 1,
+      "explanation": "Nhà có bố, mẹ, anh trai và người nói.",
+      "meaning": "Nhà anh ấy có những ai?"
+    }
+  ]
+}
