@@ -1,0 +1,15 @@
+/* src/components/ArticleCard/ArticleCard.css */
+.article-card {
+  background: white; border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: var(--shadow-sm); text-decoration: none; color: #333;
+  transition: all var(--transition-normal); display: flex; flex-direction: column;
+}
+.article-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.card-image-placeholder {
+  height: 140px; background: var(--gradient-secondary);
+  display: flex; align-items: center; justify-content: center; font-size: 3rem;
+}
+.card-content { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+.card-tags { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+.card-title { font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.4; }
+.card-desc { font-size: 0.9rem; color: #666; line-height: 1.5; flex: 1; }
