@@ -1,0 +1,123 @@
+{
+  "posts": [
+    {
+      "id": "lesson-001",
+      "slug": "bai-1-xin-chao",
+      "title": "Bài 1 – Xin chào",
+      "section": "lessons",
+      "layout": "lesson",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/lessons/lesson-1.webp",
+      "description": "Học cách chào hỏi và giới thiệu bản thân bằng tiếng Trung.",
+      "file": "/data/posts/lesson-001.json",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "lesson-002",
+      "slug": "bai-2-gia-dinh",
+      "title": "Bài 2 – Gia đình",
+      "section": "lessons",
+      "layout": "lesson",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/lessons/lesson-2.webp",
+      "description": "Học từ vựng về các thành viên trong gia đình.",
+      "file": "/data/posts/lesson-002.json",
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "lesson-003",
+      "slug": "bai-3-so-dem",
+      "title": "Bài 3 – Số đếm",
+      "section": "lessons",
+      "layout": "lesson",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/lessons/lesson-3.webp",
+      "description": "Học cách đếm số từ 1 đến 100.",
+      "file": "/data/posts/lesson-003.json",
+      "order": 3,
+      "published": true
+    },
+    {
+      "id": "test-001",
+      "slug": "test-hsk-1-phan-1",
+      "title": "Test HSK 1 – Phần 1",
+      "section": "tests",
+      "layout": "test",
+      "tags": ["hsk-1"],
+      "thumbnail": "/images/tests/test-1.webp",
+      "description": "Kiểm tra kiến thức cơ bản HSK cấp độ 1.",
+      "file": "/data/posts/test-001.json",
+      "order": 1,
+      "published": true,
+      "timeLimit": 1800
+    },
+    {
+      "id": "test-002",
+      "slug": "test-hsk-2-phan-1",
+      "title": "Test HSK 2 – Phần 1",
+      "section": "tests",
+      "layout": "test",
+      "tags": ["hsk-2"],
+      "thumbnail": "/images/tests/test-2.webp",
+      "description": "Kiểm tra kiến thức HSK cấp độ 2.",
+      "file": "/data/posts/test-002.json",
+      "order": 2,
+      "published": true,
+      "timeLimit": 2400
+    },
+    {
+      "id": "listening-001",
+      "slug": "nghe-hieu-co-ban-1",
+      "title": "Nghe hiểu cơ bản – Bài 1",
+      "section": "listening",
+      "layout": "listening",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/listening/listening-1.webp",
+      "description": "Luyện nghe đoạn hội thoại cơ bản về chào hỏi.",
+      "file": "/data/posts/listening-001.json",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "listening-002",
+      "slug": "nghe-hieu-co-ban-2",
+      "title": "Nghe hiểu cơ bản – Bài 2",
+      "section": "listening",
+      "layout": "listening",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/listening/listening-2.webp",
+      "description": "Luyện nghe về gia đình và bạn bè.",
+      "file": "/data/posts/listening-002.json",
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "reading-001",
+      "slug": "doc-hieu-co-ban-1",
+      "title": "Đọc hiểu cơ bản – Bài 1",
+      "section": "reading",
+      "layout": "reading",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/reading/reading-1.webp",
+      "description": "Đọc đoạn văn ngắn về bản thân.",
+      "file": "/data/posts/reading-001.json",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "reading-002",
+      "slug": "doc-hieu-co-ban-2",
+      "title": "Đọc hiểu cơ bản – Bài 2",
+      "section": "reading",
+      "layout": "reading",
+      "tags": ["hanyu-1", "hsk-1"],
+      "thumbnail": "/images/reading/reading-2.webp",
+      "description": "Đọc đoạn văn về sở thích.",
+      "file": "/data/posts/reading-002.json",
+      "order": 2,
+      "published": true
+    }
+  ]
+}

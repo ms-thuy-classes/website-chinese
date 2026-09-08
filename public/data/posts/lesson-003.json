@@ -1,0 +1,200 @@
+{
+  "id": "lesson-003",
+  "slug": "bai-3-so-dem",
+  "title": "Bài 3 – Số đếm",
+  "section": "lessons",
+  "layout": "lesson",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Học cách đếm số từ 1 đến 100.",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning": "một",
+      "example": "我是一个学生。",
+      "examplePinyin": "Wǒ shì yī gè xuéshēng.",
+      "exampleMeaning": "Tôi là một học sinh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning": "hai",
+      "example": "我有二个哥哥。",
+      "examplePinyin": "Wǒ yǒu èr gè gēge.",
+      "exampleMeaning": "Tôi có hai anh trai.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 3,
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning": "ba",
+      "example": "我家有三个人。",
+      "examplePinyin": "Wǒ jiā yǒu sān gè rén.",
+      "exampleMeaning": "Nhà tôi có ba người.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 4,
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaning": "bốn",
+      "example": "一年有四季。",
+      "examplePinyin": "Yī nián yǒu sì jì.",
+      "exampleMeaning": "Một năm có bốn mùa.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 5,
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaning": "năm",
+      "example": "我有五个朋友。",
+      "examplePinyin": "Wǒ yǒu wǔ gè péngyǒu.",
+      "exampleMeaning": "Tôi có năm người bạn.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 6,
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaning": "sáu",
+      "example": "一周有六天工作日。",
+      "examplePinyin": "Yī zhōu yǒu liù tiān gōngzuò rì.",
+      "exampleMeaning": "Một tuần có sáu ngày làm việc.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 7,
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning": "bảy",
+      "example": "七月是暑假。",
+      "examplePinyin": "Qī yuè shì shǔjià.",
+      "exampleMeaning": "Tháng bảy là nghỉ hè.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 8,
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning": "tám",
+      "example": "我八岁。",
+      "examplePinyin": "Wǒ bā suì.",
+      "exampleMeaning": "Tôi tám tuổi.",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "grammar": [
+    {
+      "title": "Số đếm và lượng từ",
+      "explanation": "Trong tiếng Trung, số đếm thường đi kèm với lượng từ.",
+      "structure": "Số + Lượng từ + Danh từ",
+      "points": [
+        {
+          "text": "个 là lượng từ phổ biến nhất."
+        },
+        {
+          "text": "Mỗi danh từ có thể có lượng từ riêng."
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "一个人。",
+          "pinyin": "Yī gè rén.",
+          "meaning": "Một người.",
+          "highlight": ["个"]
+        },
+        {
+          "sentence": "三个学生。",
+          "pinyin": "Sān gè xuéshēng.",
+          "meaning": "Ba học sinh.",
+          "highlight": ["个"]
+        }
+      ],
+      "table": {
+        "columns": ["Số", "Lượng từ", "Danh từ", "Ý nghĩa"],
+        "rows": [
+          ["一", "个", "人", "Một người"],
+          ["二", "个", "哥哥", "Hai anh trai"],
+          ["三", "个", "学生", "Ba học sinh"]
+        ]
+      }
+    }
+  ],
+  
+  "deepPractice": {
+    "matching": [
+      {
+        "left": [
+          { "id": 1, "text": "一" },
+          { "id": 2, "text": "二" },
+          { "id": 3, "text": "三" }
+        ],
+        "right": [
+          { "id": "A", "text": "hai" },
+          { "id": "B", "text": "ba" },
+          { "id": "C", "text": "một" }
+        ],
+        "answers": {
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    ],
+    
+    "fillBlank": [
+      {
+        "question": "我___学生。",
+        "answer": "是一个",
+        "acceptableAnswers": ["是一个"],
+        "explanation": "Số + lượng từ + danh từ.",
+        "meaning": "Tôi là một học sinh."
+      }
+    ],
+    
+    "wordBank": [
+      {
+        "sentence": "我家有___个人。",
+        "words": ["三", "一", "五", "个"],
+        "answer": ["三"]
+      }
+    ],
+    
+    "ordering": [
+      {
+        "tokens": ["我", "有", "三", "个", "朋友"],
+        "answer": ["我", "有", "三", "个", "朋友"]
+      }
+    ],
+    
+    "translation": [
+      {
+        "prompt": "Tôi có ba người bạn.",
+        "answer": "我有三个朋友。",
+        "acceptableAnswers": ["我有三个朋友。", "我有三个朋友"],
+        "hints": [
+          "我 = tôi",
+          "有 = có",
+          "三 = ba",
+          "个 = lượng từ",
+          "朋友 = bạn"
+        ]
+      }
+    ]
+  }
+}

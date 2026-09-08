@@ -1,0 +1,8 @@
+{
+  "name": "Learn Chinese with Ms. Thúy",
+  "description": "Nền tảng học tiếng Trung hiện đại dành cho học sinh Việt Nam",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

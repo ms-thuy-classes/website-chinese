@@ -1,0 +1,78 @@
+{
+  "id": "listening-001",
+  "slug": "nghe-hieu-co-ban-1",
+  "title": "Nghe hiểu cơ bản – Bài 1",
+  "section": "listening",
+  "layout": "listening",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Luyện nghe đoạn hội thoại cơ bản về chào hỏi.",
+  "audioUrl": "https://raw.githubusercontent.com/example/audio/main/listening-001.mp3",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "Xin chào",
+      "example": "你好，我是小明。",
+      "examplePinyin": "Nǐ hǎo, wǒ shì xiǎo míng.",
+      "exampleMeaning": "Xin chào, tôi là Tiểu Minh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "meaning": "Tạm biệt",
+      "example": "明天见，再见！",
+      "examplePinyin": "Míngtiān jiàn, zàijiàn!",
+      "exampleMeaning": "Gặp lại ngày mai, tạm biệt!",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "transcript": "你好！我是小明。你是小红吗？是的，我是小红。很高兴认识你。我也很高兴认识你。再见！",
+  
+  "fillBlank": [
+    {
+      "question": "你好！我是___。",
+      "answer": "小明",
+      "acceptableAnswers": ["小明"],
+      "explanation": "Trong bài nghe, người nói giới thiệu mình là Tiểu Minh.",
+      "meaning": "Xin chào! Tôi là Tiểu Minh."
+    }
+  ],
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "听力中，谁是小明？",
+      "options": [
+        "Người nói đầu tiên",
+        "Người nói thứ hai",
+        "Cả hai",
+        "Không ai cả"
+      ],
+      "answer": 0,
+      "explanation": "Người nói đầu tiên giới thiệu mình là Tiểu Minh.",
+      "meaning": "Trong bài nghe, ai là Tiểu Minh?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "他们最后说了什么？",
+      "options": [
+        "你好",
+        "再见",
+        "谢谢",
+        "对不起"
+      ],
+      "answer": 1,
+      "explanation": "Cuối đoạn hội thoại, họ nói tạm biệt.",
+      "meaning": "Cuối cùng họ nói gì?"
+    }
+  ]
+}

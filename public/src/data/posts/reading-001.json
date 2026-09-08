@@ -1,0 +1,79 @@
+{
+  "id": "reading-001",
+  "slug": "doc-hieu-co-ban-1",
+  "title": "Đọc hiểu cơ bản – Bài 1",
+  "section": "reading",
+  "layout": "reading",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Đọc đoạn văn ngắn về bản thân.",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "名字",
+      "pinyin": "míngzì",
+      "meaning": "tên",
+      "example": "你叫什么名字？",
+      "examplePinyin": "Nǐ jiào shénme míngzì?",
+      "exampleMeaning": "Bạn tên là gì?",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "meaning": "tuổi",
+      "example": "我二十岁。",
+      "examplePinyin": "Wǒ èrshí suì.",
+      "exampleMeaning": "Tôi hai mươi tuổi.",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "passage": "你好！我叫小明。我是中国人。我今年二十岁。我是大学生。我喜欢学习中文。我有很多朋友。我很高兴认识你。",
+  
+  "translation": "Xin chào! Tôi tên là Tiểu Minh. Tôi là người Trung Quốc. Năm nay tôi hai mươi tuổi. Tôi là sinh viên. Tôi thích học tiếng Trung. Tôi có rất nhiều bạn. Tôi rất vui được gặp bạn.",
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "文章中的主人公叫什么名字？",
+      "options": [
+        "小红",
+        "小明",
+        "小李",
+        "小王"
+      ],
+      "answer": 1,
+      "explanation": "Đoạn văn bắt đầu bằng việc giới thiệu tên là Tiểu Minh.",
+      "meaning": "Nhân vật chính trong bài tên là gì?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "他今年几岁？",
+      "options": [
+        "十八岁",
+        "十九岁",
+        "二十岁",
+        "二十一岁"
+      ],
+      "answer": 2,
+      "explanation": "Trong bài viết rõ ràng là hai mươi tuổi.",
+      "meaning": "Năm nay anh ấy bao nhiêu tuổi?"
+    }
+  ],
+  
+  "summaryFill": [
+    {
+      "question": "文章主要介绍了___。",
+      "answer": "小明",
+      "acceptableAnswers": ["小明", "自己"],
+      "explanation": "Đoạn văn chủ yếu giới thiệu về bản thân Tiểu Minh.",
+      "meaning": "Bài viết chủ yếu giới thiệu về ___."
+    }
+  ]
+}

@@ -94,7 +94,7 @@ function ReadingLayout() {
             {post.vocabulary.map(word => <Flashcard key={word.id} word={word} showPinyin={true} />)
             }
           </div>
-        </div>
+        </section>
       )}
 
       <section className="reading-section">

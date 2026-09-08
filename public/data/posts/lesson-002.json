@@ -1,0 +1,200 @@
+{
+  "id": "lesson-002",
+  "slug": "bai-2-gia-dinh",
+  "title": "Bài 2 – Gia đình",
+  "section": "lessons",
+  "layout": "lesson",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Học từ vựng về các thành viên trong gia đình.",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "meaning": "bố",
+      "example": "我爸爸是医生。",
+      "examplePinyin": "Wǒ bàba shì yīshēng.",
+      "exampleMeaning": "Bố tôi là bác sĩ.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "meaning": "mẹ",
+      "example": "我妈妈很漂亮。",
+      "examplePinyin": "Wǒ māma hěn piàoliang.",
+      "exampleMeaning": "Mẹ tôi rất xinh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 3,
+      "hanzi": "哥哥",
+      "pinyin": "gēge",
+      "meaning": "anh trai",
+      "example": "我哥哥是学生。",
+      "examplePinyin": "Wǒ gēge shì xuéshēng.",
+      "exampleMeaning": "Anh trai tôi là học sinh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 4,
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "meaning": "chị gái",
+      "example": "我姐姐是老师。",
+      "examplePinyin": "Wǒ jiějie shì lǎoshī.",
+      "exampleMeaning": "Chị gái tôi là giáo viên.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 5,
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "meaning": "em trai",
+      "example": "我弟弟很小。",
+      "examplePinyin": "Wǒ dìdi hěn xiǎo.",
+      "exampleMeaning": "Em trai tôi rất nhỏ.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 6,
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "meaning": "em gái",
+      "example": "我妹妹是学生。",
+      "examplePinyin": "Wǒ mèimei shì xuéshēng.",
+      "exampleMeaning": "Em gái tôi là học sinh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 7,
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning": "nhà, gia đình",
+      "example": "我家有五口人。",
+      "examplePinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+      "exampleMeaning": "Nhà tôi có 5 người.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 8,
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning": "người",
+      "example": "他是中国人。",
+      "examplePinyin": "Tā shì zhōngguó rén.",
+      "exampleMeaning": "Anh ấy là người Trung Quốc.",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "grammar": [
+    {
+      "title": "Sở hữu cách với 的",
+      "explanation": "的 được dùng để chỉ mối quan hệ sở hữu giữa hai danh từ.",
+      "structure": "Người sở hữu + 的 + Vật được sở hữu",
+      "points": [
+        {
+          "text": "的 luôn đứng giữa người sở hữu và vật được sở hữu."
+        },
+        {
+          "text": "Có thể dịch là 'của' trong tiếng Việt."
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "我的爸爸。",
+          "pinyin": "Wǒ de bàba.",
+          "meaning": "Bố của tôi.",
+          "highlight": ["的"]
+        },
+        {
+          "sentence": "她的妈妈。",
+          "pinyin": "Tā de māma.",
+          "meaning": "Mẹ của cô ấy.",
+          "highlight": ["的"]
+        }
+      ],
+      "table": {
+        "columns": ["Người sở hữu", "的", "Vật được sở hữu", "Ý nghĩa"],
+        "rows": [
+          ["我", "的", "爸爸", "Bố của tôi"],
+          ["你", "的", "妈妈", "Mẹ của bạn"],
+          ["他", "的", "哥哥", "Anh trai của anh ấy"]
+        ]
+      }
+    }
+  ],
+  
+  "deepPractice": {
+    "matching": [
+      {
+        "left": [
+          { "id": 1, "text": "爸爸" },
+          { "id": 2, "text": "妈妈" },
+          { "id": 3, "text": "哥哥" }
+        ],
+        "right": [
+          { "id": "A", "text": "mẹ" },
+          { "id": "B", "text": "anh trai" },
+          { "id": "C", "text": "bố" }
+        ],
+        "answers": {
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    ],
+    
+    "fillBlank": [
+      {
+        "question": "我___爸爸是医生。",
+        "answer": "的",
+        "acceptableAnswers": ["的"],
+        "explanation": "的 dùng để chỉ sở hữu.",
+        "meaning": "Bố của tôi là bác sĩ."
+      }
+    ],
+    
+    "wordBank": [
+      {
+        "sentence": "我___妈妈很漂亮。",
+        "words": ["的", "是", "很", "妈妈"],
+        "answer": ["的"]
+      }
+    ],
+    
+    "ordering": [
+      {
+        "tokens": ["我", "的", "爸爸", "是", "医生"],
+        "answer": ["我", "的", "爸爸", "是", "医生"]
+      }
+    ],
+    
+    "translation": [
+      {
+        "prompt": "Bố của tôi là bác sĩ.",
+        "answer": "我的爸爸是医生。",
+        "acceptableAnswers": ["我的爸爸是医生。", "我的爸爸是医生"],
+        "hints": [
+          "我 = tôi",
+          "的 = của",
+          "爸爸 = bố",
+          "是 = là",
+          "医生 = bác sĩ"
+        ]
+      }
+    ]
+  }
+}
