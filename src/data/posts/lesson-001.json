@@ -1,0 +1,228 @@
+{
+  "id": "lesson-001",
+  "slug": "bai-1-xin-chao",
+  "title": "Bài 1 – Xin chào",
+  "section": "lessons",
+  "layout": "lesson",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Học cách chào hỏi và giới thiệu bản thân bằng tiếng Trung.",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "Xin chào",
+      "example": "你好，我是老师。",
+      "examplePinyin": "Nǐ hǎo, wǒ shì lǎoshī.",
+      "exampleMeaning": "Xin chào, tôi là giáo viên.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "meaning": "giáo viên",
+      "example": "她是老师。",
+      "examplePinyin": "Tā shì lǎoshī.",
+      "exampleMeaning": "Cô ấy là giáo viên.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 3,
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "meaning": "học sinh",
+      "example": "我是学生。",
+      "examplePinyin": "Wǒ shì xuéshēng.",
+      "exampleMeaning": "Tôi là học sinh.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 4,
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning": "tôi",
+      "example": "我是中国人。",
+      "examplePinyin": "Wǒ shì zhōngguó rén.",
+      "exampleMeaning": "Tôi là người Trung Quốc.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 5,
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning": "bạn",
+      "example": "你叫什么名字？",
+      "examplePinyin": "Nǐ jiào shénme míngzì?",
+      "exampleMeaning": "Bạn tên là gì?",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 6,
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning": "anh ấy",
+      "example": "他是我的朋友。",
+      "examplePinyin": "Tā shì wǒ de péngyǒu.",
+      "exampleMeaning": "Anh ấy là bạn của tôi.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 7,
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaning": "cô ấy",
+      "example": "她是医生。",
+      "examplePinyin": "Tā shì yīshēng.",
+      "exampleMeaning": "Cô ấy là bác sĩ.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 8,
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaning": "là",
+      "example": "我们是朋友。",
+      "examplePinyin": "Wǒmen shì péngyǒu.",
+      "exampleMeaning": "Chúng ta là bạn.",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "grammar": [
+    {
+      "title": "Cấu trúc 是",
+      "explanation": "是 được dùng để nối chủ ngữ với danh từ hoặc cụm danh từ, biểu thị mối quan hệ 'là'.",
+      "structure": "A + 是 + B",
+      "points": [
+        {
+          "text": "Dùng để giới thiệu hoặc xác định một người hoặc sự vật."
+        },
+        {
+          "text": "Có thể dùng trong câu khẳng định và phủ định (不是)."
+        },
+        {
+          "text": "Không dùng với tính từ."
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "我是学生。",
+          "pinyin": "Wǒ shì xuéshēng.",
+          "meaning": "Tôi là học sinh.",
+          "highlight": ["是"]
+        },
+        {
+          "sentence": "她是老师。",
+          "pinyin": "Tā shì lǎoshī.",
+          "meaning": "Cô ấy là giáo viên.",
+          "highlight": ["是"]
+        },
+        {
+          "sentence": "他不是医生。",
+          "pinyin": "Tā bù shì yīshēng.",
+          "meaning": "Anh ấy không phải là bác sĩ.",
+          "highlight": ["不是"]
+        }
+      ],
+      "table": {
+        "columns": ["Thành phần", "Ví dụ", "Ý nghĩa"],
+        "rows": [
+          ["Chủ ngữ (A)", "我", "Tôi"],
+          ["是", "是", "là"],
+          ["Tân ngữ (B)", "学生", "học sinh"]
+        ]
+      }
+    }
+  ],
+  
+  "deepPractice": {
+    "matching": [
+      {
+        "left": [
+          { "id": 1, "text": "你好" },
+          { "id": 2, "text": "老师" },
+          { "id": 3, "text": "学生" }
+        ],
+        "right": [
+          { "id": "A", "text": "giáo viên" },
+          { "id": "B", "text": "học sinh" },
+          { "id": "C", "text": "xin chào" }
+        ],
+        "answers": {
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    ],
+    
+    "fillBlank": [
+      {
+        "question": "我___学生。",
+        "answer": "是",
+        "acceptableAnswers": ["是"],
+        "explanation": "是 được dùng để nối chủ ngữ với danh từ.",
+        "meaning": "Tôi là học sinh."
+      },
+      {
+        "question": "她___老师。",
+        "answer": "是",
+        "acceptableAnswers": ["是"],
+        "explanation": "是 dùng cho cả giới tính nam và nữ.",
+        "meaning": "Cô ấy là giáo viên."
+      }
+    ],
+    
+    "wordBank": [
+      {
+        "sentence": "我___学生。",
+        "words": ["是", "去", "老师", "学生"],
+        "answer": ["是"]
+      }
+    ],
+    
+    "ordering": [
+      {
+        "tokens": ["我", "是", "学生"],
+        "answer": ["我", "是", "学生"]
+      },
+      {
+        "tokens": ["她", "老师", "是"],
+        "answer": ["她", "是", "老师"]
+      }
+    ],
+    
+    "translation": [
+      {
+        "prompt": "Tôi là học sinh.",
+        "answer": "我是学生。",
+        "acceptableAnswers": ["我是学生。", "我是学生"],
+        "hints": [
+          "我 = tôi",
+          "是 = là",
+          "学生 = học sinh"
+        ]
+      },
+      {
+        "prompt": "Cô ấy là giáo viên.",
+        "answer": "她是老师。",
+        "acceptableAnswers": ["她是老师。", "她是老师"],
+        "hints": [
+          "她 = cô ấy",
+          "是 = là",
+          "老师 = giáo viên"
+        ]
+      }
+    ]
+  }
+}
