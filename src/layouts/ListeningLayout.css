@@ -1,0 +1,56 @@
+/* src/layouts/ListeningLayout.css */
+.listening-layout { max-width: 900px; margin: 0 auto; }
+
+.sticky-audio-player {
+  position: sticky; top: 80px; z-index: 50;
+  background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+  padding: 1rem 1.5rem; border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md); margin-bottom: 2rem;
+  display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.audio-title { font-weight: 600; color: #333; }
+.native-audio { flex: 1; min-width: 250px; height: 40px; }
+.speed-controls { display: flex; align-items: center; gap: 0.5rem; }
+.speed-btn {
+  padding: 0.4rem 0.8rem; border: 1px solid rgba(0,0,0,0.1); border-radius: var(--radius-sm);
+  background: white; cursor: pointer; font-size: 0.85rem; transition: all var(--transition-fast);
+}
+.speed-btn.active { background: var(--pastel-blue); border-color: var(--pastel-blue); color: white; font-weight: 600; }
+
+.listening-header { margin-bottom: 2rem; }
+.listening-header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.listening-header p { color: #666; margin-bottom: 1rem; }
+
+.listening-section {
+  background: white; border-radius: var(--radius-lg); padding: 2rem;
+  box-shadow: var(--shadow-sm); margin-bottom: 2rem;
+}
+.section-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+
+.transcript-box {
+  background: rgba(168, 216, 234, 0.1); border-radius: var(--radius-md);
+  padding: 2rem; border-left: 4px solid var(--pastel-blue);
+}
+.transcript-text { font-size: 1.5rem; line-height: 2; }
+
+.vocab-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;
+}
+
+.result-view { text-align: center; padding-top: 3rem; }
+.result-card {
+  background: white; border-radius: var(--radius-lg); padding: 3rem;
+  box-shadow: var(--shadow-md); max-width: 500px; margin: 0 auto;
+}
+.result-input { margin: 2rem 0; text-align: left; }
+.result-input label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.result-display { margin: 2rem 0; }
+.score-big { font-size: 4rem; font-weight: 700; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.score-detail { font-size: 1.2rem; color: #666; margin-top: 0.5rem; }
+
+@media (max-width: 768px) {
+  .sticky-audio-player { flex-direction: column; align-items: stretch; top: 70px; }
+  .speed-controls { justify-content: center; margin-top: 0.5rem; }
+  .transcript-text { font-size: 1.2rem; }
+}
