@@ -1,0 +1,79 @@
+{
+  "id": "reading-002",
+  "slug": "doc-hieu-co-ban-2",
+  "title": "Đọc hiểu cơ bản – Bài 2",
+  "section": "reading",
+  "layout": "reading",
+  "tags": ["hanyu-1", "hsk-1"],
+  "description": "Đọc đoạn văn về sở thích.",
+  
+  "vocabulary": [
+    {
+      "id": 1,
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuān",
+      "meaning": "thích",
+      "example": "我喜欢吃中国菜。",
+      "examplePinyin": "Wǒ xǐhuān chī zhōngguó cài.",
+      "exampleMeaning": "Tôi thích ăn món Trung Quốc.",
+      "audio": null,
+      "exampleAudio": null
+    },
+    {
+      "id": 2,
+      "hanzi": "爱好",
+      "pinyin": "àihào",
+      "meaning": "sở thích",
+      "example": "你的爱好是什么？",
+      "examplePinyin": "Nǐ de àihào shì shénme?",
+      "exampleMeaning": "Sở thích của bạn là gì?",
+      "audio": null,
+      "exampleAudio": null
+    }
+  ],
+  
+  "passage": "我叫小红。我今年十九岁。我的爱好是看书和听音乐。我喜欢看中国电影。我也喜欢学习中文。我觉得中文很有趣。我每天都有学习中文。",
+  
+  "translation": "Tôi tên là Tiểu Hồng. Năm nay tôi mười chín tuổi. Sở thích của tôi là đọc sách và nghe nhạc. Tôi thích xem phim Trung Quốc. Tôi cũng thích học tiếng Trung. Tôi thấy tiếng Trung rất thú vị. Mỗi ngày tôi đều học tiếng Trung.",
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "小红的爱好是什么？",
+      "options": [
+        "看电影",
+        "看书和听音乐",
+        "学习中文",
+        "吃中国菜"
+      ],
+      "answer": 1,
+      "explanation": "Bài viết nói rõ sở thích là đọc sách và nghe nhạc.",
+      "meaning": "Sở thích của Tiểu Hồng là gì?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "她觉得中文怎么样？",
+      "options": [
+        "很难",
+        "很容易",
+        "很有趣",
+        "很无聊"
+      ],
+      "answer": 2,
+      "explanation": "Cô ấy thấy tiếng Trung rất thú vị.",
+      "meaning": "Cô ấy thấy tiếng Trung như thế nào?"
+    }
+  ],
+  
+  "summaryFill": [
+    {
+      "question": "小红喜欢___。",
+      "answer": "学习中文",
+      "acceptableAnswers": ["学习中文", "看中国电影", "看书"],
+      "explanation": "Bài viết nói về sở thích học tiếng Trung của Tiểu Hồng.",
+      "meaning": "Tiểu Hồng thích ___."
+    }
+  ]
+}
