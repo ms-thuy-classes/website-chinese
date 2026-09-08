@@ -1,0 +1,68 @@
+{
+  "id": "test-001",
+  "slug": "test-hsk-1-phan-1",
+  "title": "Test HSK 1 – Phần 1",
+  "section": "tests",
+  "layout": "test",
+  "tags": ["hsk-1"],
+  "description": "Kiểm tra kiến thức cơ bản HSK cấp độ 1.",
+  "timeLimit": 1800,
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "你好吗？是什么意思？",
+      "options": [
+        "Bạn khỏe không?",
+        "Bạn tên gì?",
+        "Bạn đi đâu?",
+        "Bạn là ai?"
+      ],
+      "answer": 0,
+      "explanation": "你好吗 là câu hỏi về sức khỏe.",
+      "meaning": "Bạn khỏe không?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "老师是什么意思？",
+      "options": [
+        "Học sinh",
+        "Giáo viên",
+        "Bác sĩ",
+        "Kỹ sư"
+      ],
+      "answer": 1,
+      "explanation": "老师 có nghĩa là giáo viên.",
+      "meaning": "Giáo viên"
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "question": "我是___。",
+      "answer": "学生",
+      "acceptableAnswers": ["学生"],
+      "explanation": "我是学生 = Tôi là học sinh.",
+      "meaning": "Tôi là học sinh."
+    },
+    {
+      "id": "q4",
+      "type": "ordering",
+      "tokens": ["我", "是", "学生"],
+      "answer": ["我", "是", "学生"]
+    },
+    {
+      "id": "q5",
+      "type": "translation",
+      "prompt": "Tôi là học sinh.",
+      "answer": "我是学生。",
+      "acceptableAnswers": ["我是学生。", "我是学生"],
+      "hints": [
+        "我 = tôi",
+        "是 = là",
+        "学生 = học sinh"
+      ]
+    }
+  ]
+}
