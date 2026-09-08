@@ -1,0 +1,47 @@
+:root {
+  /* Colors */
+  --pastel-blue: #a8d8ea;
+  --pastel-purple: #c7b8ea;
+  --pastel-pink: #ffc8dd;
+  --pastel-peach: #ffd8be;
+  --pastel-mint: #b5ead7;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #a8d8ea 0%, #c7b8ea 100%);
+  --gradient-secondary: linear-gradient(135deg, #ffc8dd 0%, #ffd8be 100%);
+  --gradient-bg: linear-gradient(180deg, #f8f9ff 0%, #fff5f5 100%);
+  
+  /* HSK Colors */
+  --hsk-1: #b5ead7;
+  --hsk-2: #a8d8ea;
+  --hsk-3: #c7b8ea;
+  --hsk-4: #ffc8dd;
+  --hsk-5: #ffd8be;
+  --hsk-6: #ff9aa2;
+  
+  /* Typography */
+  --font-main: 'Inter', 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-chinese: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-normal: 300ms ease;
+}
