@@ -1,0 +1,70 @@
+{
+  "id": "test-002",
+  "slug": "test-hsk-2-phan-1",
+  "title": "Test HSK 2 – Phần 1",
+  "section": "tests",
+  "layout": "test",
+  "tags": ["hsk-2"],
+  "description": "Kiểm tra kiến thức HSK cấp độ 2.",
+  "timeLimit": 2400,
+  
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "你家有几口人？是什么意思？",
+      "options": [
+        "Nhà bạn có mấy người?",
+        "Bạn bao nhiêu tuổi?",
+        "Bạn ở đâu?",
+        "Bạn làm gì?"
+      ],
+      "answer": 0,
+      "explanation": "几口人 dùng để hỏi số người trong gia đình.",
+      "meaning": "Nhà bạn có mấy người?"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "question": "爸爸是什么意思？",
+      "options": [
+        "Mẹ",
+        "Bố",
+        "Anh trai",
+        "Chị gái"
+      ],
+      "answer": 1,
+      "explanation": "爸爸 có nghĩa là bố.",
+      "meaning": "Bố"
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "question": "我的___是医生。",
+      "answer": "爸爸",
+      "acceptableAnswers": ["爸爸"],
+      "explanation": "我的爸爸是医生 = Bố của tôi là bác sĩ.",
+      "meaning": "Bố của tôi là bác sĩ."
+    },
+    {
+      "id": "q4",
+      "type": "ordering",
+      "tokens": ["我", "的", "妈妈", "很", "漂亮"],
+      "answer": ["我", "的", "妈妈", "很", "漂亮"]
+    },
+    {
+      "id": "q5",
+      "type": "translation",
+      "prompt": "Mẹ của tôi rất xinh.",
+      "answer": "我的妈妈很漂亮。",
+      "acceptableAnswers": ["我的妈妈很漂亮。", "我的妈妈很漂亮"],
+      "hints": [
+        "我 = tôi",
+        "的 = của",
+        "妈妈 = mẹ",
+        "很 = rất",
+        "漂亮 = xinh"
+      ]
+    }
+  ]
+}
