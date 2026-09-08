@@ -1,0 +1,54 @@
+/* src/layouts/ReadingLayout.css */
+.reading-layout { max-width: 900px; margin: 0 auto; }
+
+.reading-header { margin-bottom: 2rem; }
+.reading-header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.reading-header p { color: #666; margin-bottom: 1rem; }
+
+.reading-section {
+  background: white; border-radius: var(--radius-lg); padding: 2rem;
+  box-shadow: var(--shadow-sm); margin-bottom: 2rem;
+}
+.section-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+
+.reading-controls { display: flex; align-items: center; gap: 1.5rem; }
+.font-size-control { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: #666; }
+.control-btn {
+  width: 32px; height: 32px; border: 1px solid rgba(0,0,0,0.1); border-radius: var(--radius-sm);
+  background: white; cursor: pointer; font-weight: 600; transition: all var(--transition-fast);
+}
+.control-btn:hover { background: var(--pastel-blue); color: white; border-color: var(--pastel-blue); }
+.font-size-value { min-width: 40px; text-align: center; font-weight: 600; }
+
+.passage-container { margin-top: 1rem; }
+.chinese-passage {
+  font-family: var(--font-chinese); line-height: 2.2; color: #222;
+  padding: 2rem; background: rgba(255, 255, 255, 0.5); border-radius: var(--radius-md);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.translation-box {
+  margin-top: 2rem; padding: 1.5rem; background: rgba(181, 234, 215, 0.2);
+  border-radius: var(--radius-md); border-left: 4px solid var(--pastel-mint);
+}
+.translation-box h4 { margin-bottom: 0.75rem; color: #333; }
+.translation-box p { line-height: 1.8; color: #444; }
+
+.vocab-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;
+}
+
+/* Reuse result styles from ListeningLayout */
+.result-view { text-align: center; padding-top: 3rem; }
+.result-card { background: white; border-radius: var(--radius-lg); padding: 3rem; box-shadow: var(--shadow-md); max-width: 500px; margin: 0 auto; }
+.result-input { margin: 2rem 0; text-align: left; }
+.result-input label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.result-display { margin: 2rem 0; }
+.score-big { font-size: 4rem; font-weight: 700; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.score-detail { font-size: 1.2rem; color: #666; margin-top: 0.5rem; }
+
+@media (max-width: 768px) {
+  .section-header-row { flex-direction: column; align-items: flex-start; }
+  .reading-controls { width: 100%; justify-content: space-between; }
+  .chinese-passage { padding: 1.5rem; }
+}
