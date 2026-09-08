@@ -1,0 +1,73 @@
+.test-layout {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.test-intro {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.test-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 1rem 0 2rem;
+}
+
+.test-info {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.info-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.student-input {
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.student-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.btn-large {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+}
+
+.test-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.time-spent {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 1rem;
+}
